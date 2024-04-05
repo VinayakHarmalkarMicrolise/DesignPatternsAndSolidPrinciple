@@ -6,15 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
-    public class MainMethod
-    {
-        public static void Main(string[] args)
-        {
-            Facade f = new Facade();
-            f.OrderFood();
-            Console.ReadLine();
-        }
-    }
+    
     public class Facade
     {
         public void OrderFood()
